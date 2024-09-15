@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.full-screen-div {
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+}
+
+.box {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    width: 180px;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    flex: 1;
+}

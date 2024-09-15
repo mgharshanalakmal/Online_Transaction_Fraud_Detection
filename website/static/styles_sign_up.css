@@ -1,0 +1,35 @@
+body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .sign-in-form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .sign-in-form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .sign-in-form input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    .sign-in-form button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .sign-in-form a {
+      text-decoration: none;
+      color: #007bff;
+    }
